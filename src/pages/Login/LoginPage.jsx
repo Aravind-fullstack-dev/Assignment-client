@@ -100,7 +100,7 @@ export default function LoginForm() {
                     align="center"
                     sx={{ fontWeight: 700, mb: 1, color: "#1E293B" }}
                 >
-                    Welcome Back
+                    Welcome
                 </Typography>
                 <Typography
                     variant="body2"

@@ -14,3 +14,32 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Features
+
+-> Login page with form validation
+-> Dashboard with side navigation
+-> Employee Management UI: view, add, edit, delete employees
+-> Search and pagination for employees
+-> Reusable components (CommonTextField)
+-> API integration with JWT authentication
+
+## Installation
+-> cd frontend
+-> npm install
+-> npm run dev
+
+-> App runs at http://localhost:5173 (default for Vite React projects)
+
+
+## Dependencies
+-> React
+-> Material UI
+-> Axios
+-> React Router
+
+## Login Credentials (Testing)
+
+-> Email: aravindn341@gmail.com
+-> Password: 12345

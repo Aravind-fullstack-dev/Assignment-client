@@ -22,18 +22,13 @@ function SignUpForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // 💡 Add robust validation logic here (e.g., check email format, password length)
     if (formData.password.length < 8) {
       setErrors((prev) => ({ ...prev, password: 'Password must be at least 8 characters.' }));
       return;
     }
-    
-    console.log('Sign Up Data:', formData);
-    // ... API call to register the new user
   };
 
   return (
-    // Outer Box for centering and background
     <Box 
       sx={{ 
         display: 'flex', 
@@ -52,7 +47,6 @@ function SignUpForm() {
 
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
             
-            {/* Grid for First Name and Last Name to be side-by-side */}
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <CustomTextField

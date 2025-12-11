@@ -42,8 +42,6 @@ export default function LoginForm() {
         });
 
         const data = await response.json();
-        console.log(data, "login response");
-
         // Check if response is OK
         if (!response.ok) {
             toast.error(data.message || "Login failed");

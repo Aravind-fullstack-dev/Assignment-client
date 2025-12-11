@@ -59,8 +59,6 @@ export default function Dashboard() {
       }
 
       const data = await response.json();
-      console.log(data ,"hhhhhhhhhhhhh");
-
       // Map API data to state
       setDashboardData({
         totalEmployees: data.data.total_employees || 0,

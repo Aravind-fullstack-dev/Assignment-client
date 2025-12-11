@@ -74,7 +74,7 @@ function SideBar(props) {
       <AppProvider
         navigation={navigationArray}
         branding={{
-          logo: <img src="https://mui.com/static/logo.png" alt="Portal Logo" />,
+          logo: '',
           title: "Employee Portal",
         }}
         router={router}
